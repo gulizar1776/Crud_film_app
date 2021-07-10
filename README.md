@@ -9,6 +9,6 @@ Son olarak chrome veya herhangi başka bir tarayıcıya gidip http://localhost:8
 İşte şimdi veritabanına eklemeler, silmeler veya güncellemeler yapabilirsiniz.
 Not: 8080 port is already in use tarzında bir uyarı almanız durumunda cmd(komut istemini) yönetici olarak çalıştırmalısınız.
 Ardından şu iki komutu çalıştırmalısınız(... yerine ilk komutu çalıştırdıktan sonra gelen pid yazılmalıdır).
-netstat -ano | findstr 8080
-taskkill /F /pid ...
+1.Komut: netstat -ano | findstr 8080
+2.Komut: taskkill /F /pid ...
 Uygulamanın demo videosuna https://www.youtube.com/watch?v=sgYN5WbYdLE linkinden ulaşabilirsiniz.
